@@ -1,0 +1,14 @@
+@import "/src/styles-config/common.module.scss";
+
+.brands {
+    display: flex;
+    justify-content: space-around;
+    background-color: $color-gray-light;
+    padding: $padding;
+    border-radius: $border-radius;
+}
+
+.brand {
+    color: $color-dark;
+    font-size: 150px;
+}

@@ -1,0 +1,6 @@
+@import '/src/styles-config/common.module.scss';
+
+.steps {
+    @include flex-center;
+    justify-content: space-between;
+}

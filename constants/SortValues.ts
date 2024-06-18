@@ -1,0 +1,9 @@
+enum SortValues {
+  SORT_VALUE_STATUS,
+  SORT_VALUE_NAME,
+  SORT_VALUE_EMAIL,
+  SORT_VALUE_AUTO_CATEGORY,
+  SORT_VALUE_MODEL,
+  SORT_VALUE_CITY,
+}
+export default SortValues;

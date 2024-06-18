@@ -1,0 +1,17 @@
+@import '/src/styles-config/common.module.scss';
+
+.header {
+    background-color: $color-dark;
+    position: relative;
+    box-shadow: 0 0 5px 1px $color-dark;
+}
+
+.wrapper {
+    height: 124px;
+    @include flex-center;
+}
+
+.number {
+    font-size: 18px;
+    margin-right: 50px;
+}

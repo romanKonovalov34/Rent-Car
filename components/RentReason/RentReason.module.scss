@@ -1,0 +1,32 @@
+@import '/src/styles-config/common.module.scss';
+
+.reason {
+    color: $color-black;
+    @include flex-center;
+    column-gap: 40px;
+}
+
+.logo-wrapper {
+    @include square(112px);
+    background-color: $color-light;
+    color: $color-gray;
+    font-size: 50px;
+    border-radius: 20px;
+    @include flex-center;
+    box-shadow: $shadow;
+}
+
+.info {
+    max-width: 300px;
+    
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 13px;
+}

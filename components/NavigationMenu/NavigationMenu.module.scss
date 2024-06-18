@@ -1,0 +1,14 @@
+.menu {
+    margin-inline: auto;
+}
+
+.list {
+    display: flex;
+    column-gap: 35px;
+}
+
+.link {
+    color: currentColor;
+    padding: 20px 10px;
+    cursor: pointer;
+}

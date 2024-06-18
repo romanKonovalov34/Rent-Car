@@ -1,0 +1,13 @@
+@import '/src/styles-config/common.module.scss';
+
+.logo {
+    color: currentColor;
+    @include flex-center;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}

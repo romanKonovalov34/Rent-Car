@@ -1,0 +1,9 @@
+@import '/src/styles-config/common.module.scss';
+
+.profile {
+    @include square(46px);
+    background-color: $color-black;
+    border-radius: 50%;
+    @include flex-center;
+    color: currentColor;
+}

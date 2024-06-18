@@ -1,0 +1,23 @@
+body {
+    font-family: $font-family-base;
+    font-weight: 300;
+    font-size: 15px;
+    color: $color-light;
+    line-height: 24px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+    transition-duration: $transition-duration;
+}
+
+h1 {
+    @include fluid-text(72, 43)
+}

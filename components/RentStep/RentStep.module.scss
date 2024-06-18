@@ -1,0 +1,32 @@
+@import '/src/styles-config/common.module.scss';
+
+.step {
+    max-width: 424px;
+    height: 235px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 17px;
+    color: $color-gray;
+    display: flex;
+    box-shadow: $shadow;
+}
+
+.wrapper {
+    font-size: 50px;
+    margin-right: 24px;
+}
+
+.info {
+    max-width: 250px;
+}
+
+.title {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: $color-black;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 13px;
+}

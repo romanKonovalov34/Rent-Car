@@ -1,0 +1,19 @@
+@import '/src/styles-config/common.module.scss';
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+
+    &:nth-last-child(-n + 1) {
+        padding-right: $padding;
+    }
+}
+
+.arrows {
+    cursor: pointer;
+    padding: 3px 8px 6px;
+    background-color: $color-gray-light;
+    border-radius: 10px;
+}

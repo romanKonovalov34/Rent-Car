@@ -1,0 +1,69 @@
+@import '/src/styles-config/common.module.scss';
+
+.wrapper {
+    @include flex-center;
+    flex-direction: column;
+    row-gap: $margin;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: $font-family-second;
+    min-height: 100vh;
+}
+
+.form {
+    border-radius: $border-radius;
+    padding: $padding-large;
+    background-color: $color-light;
+    display: flex;
+    box-shadow: $shadow
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    color: $color-dark;
+    text-align: left;
+}
+
+.name {
+    display: flex;
+    column-gap: 20px;
+    margin-top: $margin-large;
+}
+
+.label {
+    display: block;
+    margin-bottom: 20px;
+    color: $color-dark;
+}
+
+.field {
+    display: block;
+    background-color: $color-gray-light;
+    height: 50px;
+    width: 100%;
+    padding-inline: 30px;
+    border-radius: 13px;
+    margin-bottom: 25px;
+    color: $color-gray;
+    background-color: $background-input;
+    border: $border-input;
+    font-weight: normal;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.select-wrapper {
+    width: 100%;
+}
+
+.city {
+    max-width: 255px;
+    margin-bottom: $margin;
+}
+
+.selects {
+    display: flex;
+    column-gap: 20px;
+}

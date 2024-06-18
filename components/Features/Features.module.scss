@@ -1,0 +1,39 @@
+@import '/src/styles-config/common.module.scss';
+
+.wrapper {
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+}
+
+.features {
+    display: flex;
+    gap: 30px;
+}
+
+.feature {
+    display: flex;
+    max-width: 220px;
+}
+
+.number {
+    @include square(26px);
+    font-size: 15px;
+    color: $color-black;
+    background-color: $color-light;
+    border-radius: 50%;
+    @include flex-center;
+    margin-right: 17px;
+}
+
+.button {
+    display: inline-block;
+    padding: $padding;
+    background-color: rgb(199, 24, 24);
+    border-radius: 14px;
+    margin-top: 30px;
+    margin-inline: auto;
+    text-decoration: none;
+    color: $color-light;
+}
